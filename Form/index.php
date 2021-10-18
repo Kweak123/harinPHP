@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") { // Обработка GET запро�
         echo "<a> Твое число: " . $_POST["myNumber"] . "</a>"; // Если все хорошо, отрисовка отправленного числа
     } else {
         echo "NE TOT KEY";
-        echo "<br><a href='". $_SERVER["PHP_SELF"] ."'>COME BACK AND TRU AGAIN</a>";
+        echo "<br><a href='". $_SERVER["PHP_SELF"] ."'>COME BACK AND TRY AGAIN</a>";
     }
 }
 
